@@ -1,0 +1,5 @@
+josh_p_main:
+    resource: "@JoshPMainBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
