@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30/11/2013, 5:49:11 PM
+    Author     : Josh
+*/
+/* line 11, C:\xampp\htdocs\hosting\src\web\less\website.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/hosting\/src\/web\/less\/website\.less}line{font-family:\0000311}}
+.overlay {
+  position: relative;
+  z-index: 2;
+}
+/* line 15, C:\xampp\htdocs\hosting\src\web\less\website.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/hosting\/src\/web\/less\/website\.less}line{font-family:\0000315}}
+body {
+  font-family: Arial;
+  background-color: #f0f0f0;
+}
+/* line 19, C:\xampp\htdocs\hosting\src\web\less\website.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/hosting\/src\/web\/less\/website\.less}line{font-family:\0000319}}
+body .navbar {
+  border: none;
+  background-color: #191919;
+}
+/* line 24, C:\xampp\htdocs\hosting\src\web\less\website.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/hosting\/src\/web\/less\/website\.less}line{font-family:\0000324}}
+body .navbar .container {
+  padding: 10px;
+}
+/* line 29, C:\xampp\htdocs\hosting\src\web\less\website.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/hosting\/src\/web\/less\/website\.less}line{font-family:\0000329}}
+body .navbar .container .navbar-brand {
+  color: #AAA;
+  font-weight: bold;
+}
+/* line 33, C:\xampp\htdocs\hosting\src\web\less\website.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/hosting\/src\/web\/less\/website\.less}line{font-family:\0000333}}
+body .navbar .container a {
+  color: #AAA;
+}
+/* line 34, C:\xampp\htdocs\hosting\src\web\less\website.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/hosting\/src\/web\/less\/website\.less}line{font-family:\0000334}}
+body .navbar .container a:hover {
+  color: #AAA;
+  text-decoration: underline;
+}
+/* line 39, C:\xampp\htdocs\hosting\src\web\less\website.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/hosting\/src\/web\/less\/website\.less}line{font-family:\0000339}}
+body .body .container {
+  border-left: 5px solid #CCC;
+  border-right: 5px solid #CCC;
+  background-color: #F6F6F6;
+  padding: 10px;
+}
+/* line 44, C:\xampp\htdocs\hosting\src\web\less\website.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/hosting\/src\/web\/less\/website\.less}line{font-family:\0000344}}
+body .body .container h3 {
+  font-size: 18px;
+}
+/* line 45, C:\xampp\htdocs\hosting\src\web\less\website.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/hosting\/src\/web\/less\/website\.less}line{font-family:\0000345}}
+body .body .container .register {
+  padding: 20px;
+  text-align: center;
+}
+/* line 46, C:\xampp\htdocs\hosting\src\web\less\website.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/hosting\/src\/web\/less\/website\.less}line{font-family:\0000346}}
+body .body .container .footer {
+  margin: 50px 0 20px 0;
+  text-align: center;
+}
+/* line 53, C:\xampp\htdocs\hosting\src\web\less\website.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/hosting\/src\/web\/less\/website\.less}line{font-family:\0000353}}
+body canvas {
+  display: block;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}

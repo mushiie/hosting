@@ -4,10 +4,46 @@
         <meta charset="UTF-8" />
         <title>{% block title %}Welcome!{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
-        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+
+        <link href='http://fonts.googleapis.com/css?family=Junge' rel='stylesheet prefetch' type='text/css'>
+        <link rel="stylesheet" href="{{ asset("css/bootstrap.min.css") }}">
+        <link rel="stylesheet" href="{{ asset("css/website.css") }}">
+        
     </head>
     <body>
-        {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
+        <div class="overlay">
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">Hosting @ joshp.me</a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Support</a></li>
+                        </ul>
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">Control Panel</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="body">
+                <div class="container">
+                {% block body %}{% endblock %}
+                </div>
+            </div>
+        </div>
+        {% block javascripts %}
+            <script src="{{ asset("js/prefixfree.min.js") }}"></script>
+            <script src="{{ asset("js/jquery.min.js") }}"></script>
+            <script src="{{ asset("js/sketch.min.js") }}"></script>
+            <script src="{{ asset("js/bootstrap.min.js") }}"></script>
+            <script src="{{ asset("js/background.js") }}"></script>
+        {% endblock %}
+            
     </body>
 </html>

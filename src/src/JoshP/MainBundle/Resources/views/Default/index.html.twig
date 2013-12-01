@@ -1,1 +1,37 @@
-Hello {{ name }}!
+{% extends '::base.html.twig' %}
+{% block body %}
+
+<div class="row">
+    <div class="col-md-6">
+        <h2>Welcome</h2>
+        <p>Welcome to hosting @ joshp.me. We offered a customised solution for small sites.</p>
+        <h3>Personalised Service</h3>
+        <p>We'll help you setup your website and offer over the phone and email troubleshooting for any issues you are having.</p>
+        <p>If you are starting a Wordpress site can help you get started with tailored support aimed at your skill level. New or Skilled.</p>
+        <h3>Customised and Affordable</h3>
+        <p>Many small business and hobby websites do not require a large amount of resources high traffic volumes provided by other companies, we can tailor a solution which meets your needs.</p>
+        <h3>No hassles</h3>
+        <p>With an online payment system where you can choose the your own payment frequency and no contractual obligations. You have the freedom to pay and cancel whenever you like. </p>
+    </div>
+    <div class="col-md-6">
+        <h2>Tailored Solutions from $1.99 a month.</h2>
+
+        <p>Send us a quick email with the details of your enquiry and we'll get back to you.</p>
+        <form role="form">
+            <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Your Email">
+            </div>
+            <textarea class="form-control" rows="10" placeholder="Enquiry details"></textarea>
+            <div class="register"><button type="submit" class="btn btn-primary">Send Enquiry</button></div>
+        </form>
+    </div>
+  
+</div>
+
+    <div class='footer'>
+        Copyright &copy; 2013 - Mushy Design
+    </div>
+{% endblock %}
